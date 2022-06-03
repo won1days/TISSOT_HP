@@ -1,0 +1,530 @@
+
+html,body{margin:0;}
+ul,li,ol{list-style-type: none; margin:0; padding:0;}
+h1,h2,h3,h4,p,figure{margin:0;}
+a{text-decoration: none;}
+img{vertical-align: top;}
+*{box-sizing: border-box; margin: 0; padding: 0;}
+
+
+/* 헤더 */
+
+header{
+    background-color: #000;
+    position: relative;
+}
+header .user_menu_block{
+    width: 100%;
+    padding: 28px 28px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+header .user_menu_block > a{
+    width: 10%;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}    
+header .user_menu_block > a > img{
+    width: 136px;
+    
+}
+header .main_user_icon{}
+header .main_user_icon > ul{
+    display: flex;
+    justify-content: space-between;
+}
+header .main_user_icon > ul > li{}
+header .main_user_icon > ul > li img{
+    width: 19px;
+    margin: 0px 8px;
+}
+
+
+
+
+header .menus_container{
+    position: absolute;
+    left: 0%; bottom: 0%;
+    transform: translateY(100%);
+    width: 100%;
+    z-index: 999;
+    background-color: #000;
+}
+.menus_container .main_icon{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+.menus_container .main_icon > ul{
+    display: flex;
+    justify-content: center;
+}
+.menus_container .main_icon > ul > li{
+    position: relative;
+}
+.menus_container .main_icon > ul > li a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 20px;
+}
+.menus_container .sub_menu_item{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translateY(100%);
+    width: 100%;
+    background-color: #000;
+    padding: 30px 0px;
+    z-index: 2;
+    text-align: center;
+}
+
+.menus_container .sub_menu_item > a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 20px;
+}
+.sub_menu_item .sub_menu_watch_01{
+}
+.sub_menu_watch_01 .mini_watch{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 30px 0px;
+}
+.sub_menu_watch_01 .mini_watch > li{}
+.sub_menu_watch_01 .mini_watch > li img{
+    width: 150px;
+}
+.sub_menu_watch_01 .mini_watch > li p{
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.mini_watch .sub_menu_silde{}
+.mini_watch .sub_menu_silde > img{
+    align-items: center;
+}
+
+.sub_menu_watch_01 .all_watch{
+}
+.sub_menu_watch_01 .all_watch > img{}
+.sub_menu_watch_01 .all_watch > p{
+    color: #fff;
+    padding: 10px 0px;
+}
+
+
+
+
+
+
+
+/* 메인 */
+
+main{}
+main .main_img img{
+    position: relative;
+    width: 100%;
+}
+main .swiper_button{
+    position: absolute;
+    top: 60%; left: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+main .arrow_left{
+    margin: 40px;
+    width: 55px; height: 55px;
+}
+main .arrow_right{
+    margin: 40px;
+    width: 55px; height: 55px;
+}
+
+
+
+
+main .gen_text{
+    text-align: center;
+    margin: 95px auto;
+    line-height: 35px;
+    letter-spacing: -1.5px;
+}
+main .gen_text h2{
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+main .gen_text p{
+    font-size: 22px;
+}
+main .mr_lee{
+    width: 1500px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+
+/* #################### page 01 #################### */
+
+
+
+.products_slider{
+    margin: 169px auto;
+}
+.products_slider > nav{
+    text-align: center;
+    font-size: 28px;
+}
+.products_slider > nav > ul{
+    width: 600px;
+    display: flex; 
+    justify-content: space-between;
+    margin: 0px auto;
+}
+.products_slider > nav > ul li{
+    margin: 40px;
+}
+.products_slider > nav > ul > li a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+.item_list{
+    text-align: center;
+    width: 1500px;
+    margin: 0px auto;
+    position: relative;
+}
+.item_list .slide .swiper_wrapper{
+    display: flex;
+    width: 80%;
+    margin: 0px auto;
+}
+.item_list .slide .swiper_wrapper .swiper_slide{
+    width: 20%;
+    flex-shrink: 0;
+}
+.item_list .slide > ul > li > figure{}
+.item_list .slide > ul > li > figure img{
+    width: 100%;
+}
+
+
+
+
+.text_01{
+    text-align: center;
+}
+.text_01 > p{
+    font-size: 18px;
+    letter-spacing: -1px;
+
+}
+.text_01 .product_title{
+    font-size: 14px;
+}
+.text_01 .price{
+    font-size: 16px;
+}
+
+
+.text_02{
+    text-align: center;
+}
+.text_02 > p{
+    font-size: 18px;
+    letter-spacing: -1px;
+
+}
+.text_02 .product_title{
+    font-size: 14px;
+}
+.text_02 .price{
+    font-size: 16px;
+}
+
+
+.text_03{
+    text-align: center;
+}
+.text_03 > p{
+    font-size: 18px;
+    letter-spacing: -1px;
+
+}
+.text_03 .product_title{
+    font-size: 14px;
+}
+.text_03 .price{
+    font-size: 16px;
+}
+
+
+.text_04{
+    text-align: center;
+}
+.text_04 > p{
+    font-size: 18px;
+    letter-spacing: -1px;
+
+}
+.text_04 .product_title{
+    font-size: 14px;
+}
+.text_04 .price{
+    font-size: 16px;
+}
+
+
+.text_05{
+    text-align: center;
+}
+.text_05 > p{
+    font-size: 18px;
+    letter-spacing: -1px;
+
+}
+.text_05 .product_title{
+    font-size: 14px;
+}
+.text_05 .price{
+    font-size: 16px;
+}
+
+
+
+.item_list .swiper_button_prev{
+    position: absolute;
+    left: 0%; top: 50%;
+}
+.item_list .swiper_button_next{
+    position: absolute;
+    right: 0%; top: 50%;
+}
+.item_list .swiper_pagination{
+    border-radius: 50%;
+}
+.item_list .swiper_pagination > button{}
+
+
+
+
+/* #################### page 02 #################### */
+
+
+
+.products_content{
+    width: 100%;
+}
+.products_content > h2{
+    text-align: center;
+    padding-bottom: 75px;
+}
+.products_content .content{
+    display: flex; 
+    justify-content: space-between;
+    margin:0px auto;
+    width:1500px;
+}
+
+.content{}
+.content > figure{}
+.content > figure > figcaption{}
+.content > figure > figcaption img{
+    margin: 8px;
+    width: 210px;
+    height: 510px;
+}
+.content > figure > figcaption p{
+    text-align: center;
+    font-size: 22px;
+    padding-top: 20px;
+    padding-bottom: 175px;
+}
+
+
+
+.banner_01{
+    width: 100%;
+    height: 234px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+.newsletter{
+    text-align: center;
+}
+.newsletter > h3{
+    font-size: 18px;
+}
+.newsletter > p{}
+
+.newsletter .search_01{
+    padding: 20px;
+}
+.newsletter .search_01 > input{
+    border: none;
+    border-bottom: 2px solid #000;
+    background: none;
+    text-align: center;
+}
+
+.newsletter .search_01 .search_bar_01{
+    margin: 0px auto;
+    width: 50%;
+    height: 1px;
+    border: 0.5px solid #000;
+}
+.newsletter .search_01 > input img{}
+
+
+.center_line{
+    margin: 0 200px;
+    width: 1px;
+    height: 100%;
+    background-color: #000;
+
+}
+
+
+.store_search{
+    text-align: center;
+}
+.store_search > h3{
+    font-size: 18px;
+}
+.store_search > p{}
+.store_search .search_02{
+    padding: 20px;
+}
+.store_search .search_02 > input{
+    border: none;
+    border-bottom: 2px solid #000;
+    background: none;
+    text-align: center;
+}
+.store_search .search_02 > input img{}
+
+
+
+/* #################### page 03 #################### */
+
+
+
+.news_wrapper{
+    text-align: center;
+    padding: 100px 0px;
+}
+.news_wrapper .news_title{
+    margin: 75px;
+}
+.news_wrapper .news_title > h2{
+    margin-bottom: 20px;
+}
+.news_wrapper .news_title > img{}
+
+.news_story{
+    width: 80%;
+    margin: 0px auto;
+}
+.news_story > ul{
+    display: flex;
+    justify-content: space-between;
+}
+.news_story > ul >li{
+    margin: 20px;
+}
+.news_story > ul > li img{
+    width: 100%;
+}
+.news_story > ul > li p{
+    margin-top: 20px;
+}
+
+
+
+.banner_02{
+    width: 100%;
+    height: 150px;
+    background-color: #f5f5f5;
+}
+.reinsurance{
+    width: 70%;
+    margin: 0px auto;
+    text-align: center;
+}
+.reinsurance .reinsurance_item{
+    display: flex;
+    justify-content: space-between;
+}
+.reinsurance .reinsurance_item > li{
+    padding: 35px;
+}
+.reinsurance .reinsurance_item > li p{
+    margin: 20px;
+    font-size: 18px;
+}
+
+
+
+
+.follow_content{}
+.social_item{
+    width: 25%;
+    margin: 0px auto;
+    text-align: center;
+    padding: 50px;
+}
+.social_item > h2{
+    font-size: 18px;
+}
+.social_item > ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.social_item > ul > li{}
+
+
+
+/* #################### page 04 #################### */
+
+
+/* 풋터 */
+
+.footer_bottom{
+    background-color: #000;
+    width: 100%;
+    height: 130px;
+}
+.footer_title{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+}
+.footer_title .copyright_01{
+    padding: 20px;
+    font-size: 12px;
+}
+.footer_title .copyright_02{
+    font-size: 14px;
+}
+
+
+
+
+/* #################### main 1-2 #################### */
